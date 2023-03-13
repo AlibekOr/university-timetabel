@@ -1,0 +1,87 @@
+.logoImg {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.header-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding: 10px 65px;
+    position: relative;
+    background-color: #6610f2;
+    height: 105px;
+
+    .header-right {
+        width: 1100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+
+        .serch-form {
+            border-radius: 5px;
+        }
+
+        .header-title {
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: .5px;
+            color: #f8f9fa;
+
+        }
+    }
+
+    .header-left {
+        width: 100px;
+        font-style: black;
+        right: 23%;
+        z-index: 1;
+        position: absolute;
+        top: 80%;
+        right: 28%;
+
+        .search__Ti {
+            z-index: 1;
+            width: 435px;
+            height: 52px;
+            padding: 4px 22px;
+            font-size: 15px;
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            background-color: #f8f8fa;
+            border: 1px solid transparent;
+            border-radius: 7px;
+
+            .employee {
+                display: flex;
+                align-items: center;
+                gap: 2px;
+                color: #6c757d;
+
+                .searchRez {
+                    color: #0a58ca;
+                }
+            }
+
+            .departament {
+                font-size: 11px;
+                color: #6c757d;
+            }
+        }
+    }
+}
+
+.nav-bl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-inner {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+}

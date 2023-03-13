@@ -1,0 +1,95 @@
+.con {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 40px 55px;
+
+    .fak-inners {
+        color: royalblue;
+        border: 1px solid #6c757d;
+        width: 1140px;
+        height: 66px;
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 8px;
+        font-weight: 500;
+
+        .fak-tits {
+            color: royalblue;
+            font-size: 16px;
+        }
+
+
+    }
+
+    .fak-inner {
+        color: royalblue;
+        border: 0 solid #6c757d;
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 8px;
+        font-weight: 500;
+        // box-shadow: 1px 2px 5px 1px #888888;
+
+        .fak-tit {
+            color: royalblue;
+            font-size: 16px;
+        }
+
+
+    }
+
+    .fak-inner:hover {
+        background-color: royalblue;
+        transition: background-color 1s;
+    }
+
+    .fak-tit:hover {
+
+        transition: color .5s;
+        color: rgb(255, 255, 255);
+    }
+
+    .fak-info {
+        border: 1px solid transparent;
+        background-color: #f6f6fa;
+        color: #6c757d;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+
+    }
+}
+
+
+.banner-headre {
+    margin: -2.5em -1.33em 0 -1.7em;
+    height: 300px;
+    // height: 100%;
+    background-image: url('https://karsu.uz/wp-content/uploads/2021/01/3.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    width: 1250px;
+    transform: translateX(-2.2%);
+
+}
+
+.home-icon {
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .banner-headre {
+        width: 750px;
+    }
+}
+
+@media(max-width:412px) {
+    .banner-headre {
+        margin: -2em -1.3em 0 -1.8em;
+        width: 373px;
+    }
+}
